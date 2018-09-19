@@ -101,7 +101,7 @@ service:
 #        keyAlias: yxxt
 # ===================================================================
 server:
-    port: 8282
+    port: 8283
     compression:
         enabled: true
         mime-types: text/html,text/xml,text/plain,text/css, application/javascript, application/json
