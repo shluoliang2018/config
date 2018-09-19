@@ -18,7 +18,7 @@ eureka:
         prefer-ip-address: true
     client:
         service-url:
-            defaultZone: http://admin:${jhipster.registry.password}@172.18.169.99:31020/eureka/
+            defaultZone: http://admin:${jhipster.registry.password}@172.18.169.99:31004/eureka/
 
 spring:
     redis:
