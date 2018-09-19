@@ -29,10 +29,11 @@ spring:
         livereload:
             enabled: false
    datasource:
-    url: jdbc:oracle:thin:@58.246.42.86:1521:orcl
-    username: EPC
-    password: 1
-    driver-class-name: oracle.jdbc.driver.OracleDriver
+        primary:
+         url: jdbc:oracle:thin:@58.246.42.86:1521:orcl
+         username: EPC
+         password: 1
+         driver-class-name: oracle.jdbc.driver.OracleDriver
     
     mail:
         host: localhost
