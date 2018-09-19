@@ -136,7 +136,7 @@ jhipster:
                 token-validity-in-seconds: 86400
                 token-validity-in-seconds-for-remember-me: 2592000
     mail: # specific JHipster mail property, for standard properties see MailProperties
-        from: yxxt@localhost
+        from: fair-cloud-server@localhost
         base-url: http://my-server-url-to-change # Modify according to your server's URL
     metrics: # DropWizard Metrics configuration, used by MetricsConfiguration
         jmx.enabled: true
@@ -144,7 +144,7 @@ jhipster:
             enabled: false
             host: localhost
             port: 2003
-            prefix: yxxt
+            prefix: fair-cloud-server
         prometheus:
             enabled: false
             endpoint: /prometheusMetrics

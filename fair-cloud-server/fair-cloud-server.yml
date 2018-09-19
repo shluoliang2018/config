@@ -24,8 +24,8 @@ eureka:
         instance-info-replication-interval-seconds: 10
         registry-fetch-interval-seconds: 10
     instance:
-        appname: yxxt
-        instanceId: yxxt:${spring.application.instance-id:${random.value}}
+        appname: fair-cloud-server
+        instanceId: fair-cloud-server:${spring.application.instance-id:${random.value}}
         lease-renewal-interval-in-seconds: 5
         lease-expiration-duration-in-seconds: 10
         status-page-url-path: ${management.context-path}/info
@@ -55,7 +55,7 @@ management:
             enabled: false # When using the MailService, configure an SMTP server and set this to true
 spring:
     application:
-        name: yxxt
+        name: fair-cloud-server
     jackson:
         serialization.write_dates_as_timestamps: false
     jpa:
@@ -76,7 +76,7 @@ spring:
         active: prod
     zipkin:
         service:
-            name: yxxt
+            name: fair-cloud-server
         base-url: http://127.0.0.1:9411
         locator:
             discovery:
@@ -116,11 +116,11 @@ jhipster:
         #allow-credentials: true
         #max-age: 1800
     mail:
-        from: yxxt@localhost
+        from: fair-cloud-server@localhost
     swagger:
         default-include-pattern: /api/.*
-        title: yxxt API
-        description: yxxt API documentation
+        title: fair-cloud-server API
+        description: fair-cloud-server API documentation
         version: 0.0.1
         terms-of-service-url:
         contact-name:
